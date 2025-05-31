@@ -485,6 +485,21 @@ DesignationSystem.PAGASA = new DesignationSystem({
     ]
 });
 
+DesignationSystem.PAGASAold = new DesignationSystem({
+    displayName: 'PAGASA (Old)',
+    secondary: true,
+    numEnable: false,
+    annual: true,
+    anchor: 1976,
+    nameThresh: 0,
+    mainLists: [
+        ["Asiang","Biring","Konsing","Didang","Edeng","Gloring","Huaning","Isang","Lusing","Maring","Ningning","Osang","Paring","Reming","Seniang","Toyang","Ulpiang","Welpring","Yerling","Apiang","Basiang","Kayang","Dorang","Enang","Grasing"],
+        ["Atring","Bining","Kuring","Daling","Elang","Goring","Huling","Ibiang","Luming","Miling","Narsing","Openg","Pining","Rubing","Saling","Tasing","Unsing","Walding","Yeyeng","Anding","Binang","Kadlang","Dinang","Epang","Gundang"],
+        ["Atang","Bising","Klaring","Deling","Emang","Gading","Heling","Iliang","Loleng","Miding","Norming","Oyang","Pitang","Ruping","Sening","Titang","Uding","Wening","Yoling","Aning","Bidang","Kading","Delang","Esang","Garding"],
+        ["Auring","Bebeng","Karing","Diding","Etang","Gening","Helming","Ising","Luding","Mameng","Neneng","Oniang","Pepang","Rosing","Sendang","Trining","Ulding","Warling","Yayang","Ading","Barang","Krising","Dadang","Erling","Goying"]
+    ]
+});
+
 DesignationSystem.australianRegionBoM = new DesignationSystem({
     displayName: 'Australian Region (BoM)',
     suffix: 'U',
@@ -746,6 +761,7 @@ DesignationSystem.presetDesignationSystems = [
     DesignationSystem.centralPacific,
     DesignationSystem.westernPacific,
     DesignationSystem.PAGASA,
+    DesignationSystem.PAGASAold,
     DesignationSystem.northIndianOcean,
     DesignationSystem.australianRegionBoM,
     DesignationSystem.southPacific,
