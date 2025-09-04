@@ -462,11 +462,23 @@ DesignationSystem.westernPacific = new DesignationSystem({
     displayName: 'Western Pacific',
     suffix: 'W',
     mainLists: [    // names marked with empty comments are retired and will be replaced when replacement names are announced
-        ["Damrey","Haikui"/**/,"Kirogi","Yun-yeung","Koinu","Bolaven","Sanba","Jelawat","Ewiniar","Maliksi","Gaemi","Prapiroon","Maria","Son-Tinh","Ampil","Wukong","Jongdari","Shanshan","Yagi","Leepi","Bebinca","Pulasan","Soulik","Cimaron","Jebi","Krathon","Barijat","Trami"],
+        ["Damrey","Tianma","Kirogi","Yun-yeung","Koinu","Bolaven","Sanba","Jelawat","Ewiniar","Maliksi","Gaemi","Prapiroon","Maria","Son-Tinh","Ampil","Wukong","Jongdari","Shanshan","Yagi","Leepi","Bebinca","Pulasan","Soulik","Cimaron","Jebi","Krathon","Barijat","Trami"],
         ["Kong-rey","Yinxing","Toraji","Man-yi","Usagi","Pabuk","Wutip","Sepat","Mun","Danas","Nari","Wipha","Francisco","Co-May","Krosa","Bailu","Podul","Lingling","Kajiki","Nongfa","Peipah","Tapah","Mitag","Ragasa","Neoguri","Bualoi","Matmo","Halong"],
-        ["Nakri","Fengshen","Kalmaegi","Fung-wong","Koto","Nokaen","Penha","Nuri","Sinlaku","Hagupit","Jangmi","Mekkhala","Higos","Bavi","Maysak","Haishen","Noul","Dolphin","Kujira","Chan-hom","Peilou","Nangka","Saudel","Narra","Gaenari","Atsani","Etau","Bang-lang"],
+        ["Nakri","Fengshen","Kalmaegi","Fung-wong","Koto","Nokaen","Penha","Nuri","Sinlaku","Hagupit","Jangmi","Mekhala","Higos","Bavi","Maysak","Haishen","Noul","Dolphin","Kujira","Chan-hom","Peilou","Nangka","Saudel","Narra","Gaenari","Atsani","Etau","Bang-lang"],
         ["Krovanh","Dujuan","Surigae","Choi-wan","Koguma","Champi","In-fa","Cempaka","Nepartak","Lupit","Mirinae","Nida","Omais","Luc-binh","Chanthu","Dianmu","Mindulle","Lionrock","Tokei","Namtheun","Malou","Nyatoh","Sarbul","Amuyao","Gosari","Chaba","Aere","Songda"],
-        ["Trases","Mulan","Meari","Tsing-ma","Tokage","Ong-mang","Muifa","Merbok","Nanmadol","Talas","Hodu","Kulap","Roke","Sonca","Nesat","Haitang","Jamjari","Banyan","Yamaneko","Pakhar","Sanvu","Mawar","Guchol","Talim","Doksuri"/**/,"Khanun","Lan","Saola"/**/]
+        ["Trases","Mulan","Meari","Tsing-ma","Tokage","Ong-mang","Muifa","Merbok","Nanmadol","Talas","Hodu","Kulap","Roke","Sonca","Nesat","Haitang","Jamjari","Banyan","Yamaneko","Pakhar","Sanvu","Mawar","Guchol","Talim","Bori","Khanun","Lan","Saobien"]
+    ]
+});
+
+DesignationSystem.westernWMHB = new DesignationSystem({
+    displayName: 'Western Pacific (Force Thirteen WMHB as of 2024-25)',
+    suffix: 'W',
+    mainLists: [    // names marked with empty comments are retired and will be replaced when replacement names are announced
+        ["Damrey","Haikui","Akius","Kai-tak","Ayumi","Khao-jee","Sanba","Jelawat","Kepir","Taal","Gaemi","Kanchana","Songyit","Saomai","Ampil","Huoyao","Jongdari","Shanshan","Koba","Xangsane","Amizade","Rumbia","Soulik","Tindahan","Yenki","Mangkhut","Utor","Ở-đâu"],
+        ["Chantrea","Yinxing","Pujon","Siu-lung","Sora","Pabuk","Xela","Gyeong","Ngul","Danas","Maru","Patthai","Christopher","Somboon","Punthea","Kikanay","Hanyang","Neon","Tentei","Sengphet","Peipah","Tapah","Simiran","Michelle","Seung","Rammasun","Chataan","Halong"],
+        ["Ketnien","Shunwei","Kalmaegi","Fung-wong","Koto","Kalani","Penha","Nuri","Sinlaku","Hagupit","Jangmi","Kamnan","Qiangsu","Bavi","Liausak","Haichang","Pongsona","Yanyan","Kujira","Chan-hom","Peilou","Nangka","Soudelor","Molave","Chul","Atsani","Etau","Bang-lang"],
+        ["Phaekdai","Wattana","Maemi","Choi-wan","Koguma","Ketsana","Parma","Sirena","Nepartak","Carlo","Sudal","Nida","Omais","Conson","Chanthu","Dianmu","Mindulle","Tingting","Kompasu","Namtheun","Jaehwa","Nyatoh","Rananim","Mingan","Gosari","Chaba","Aere","Songda"],
+        ["Trases","Haima","Meari","Ma-on","Tokage","Ong-mang","Muifa","Ayyash","Nanmadol","Magkano","Kyun","Xuchiwa","Roke","Po-lang","Anis","Haitang","Trevina","Banyan","Washi","Souxada","Alamea","Dara","Tenil","Talim","Nabi","Khanun","Vicente","Saola"]
     ]
 });
 
@@ -760,6 +772,7 @@ DesignationSystem.presetDesignationSystems = [
     DesignationSystem.easternPacific,
     DesignationSystem.centralPacific,
     DesignationSystem.westernPacific,
+    DesignationSystem.westernWMHB,
     DesignationSystem.PAGASA,
     DesignationSystem.PAGASAold,
     DesignationSystem.northIndianOcean,
