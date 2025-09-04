@@ -502,7 +502,7 @@ DesignationSystem.PAGASAold = new DesignationSystem({
     secondary: true,
     numEnable: false,
     annual: true,
-    anchor: 1976,
+    anchor: 2000,
     nameThresh: 0,
     mainLists: [
         ["Asiang","Biring","Konsing","Didang","Edeng","Gloring","Huaning","Isang","Lusing","Maring","Ningning","Osang","Paring","Reming","Seniang","Toyang","Ulpiang","Welpring","Yerling","Apiang","Basiang","Kayang","Dorang","Enang","Grasing"],
@@ -755,6 +755,18 @@ DesignationSystem.easternPacific1979 = new DesignationSystem({
     ]
 });
 
+DesignationSystem.westernPacific2000 = new DesignationSystem({
+    displayName: 'Western Pacific (2000-01)',
+    suffix: 'W',
+    mainLists: [    // names marked with empty comments are retired and will be replaced when replacement names are announced
+        ["Damrey","Longwang","Kirogi","Kai-tak","Koinu","Bolaven","Chanchu","Jelawat","Ewiniar","Bilis","Gaemi","Prapiroon","Maria","Saomai","Bopha","Wukong","Sonamu","Shanshan","Yagi","Xangsane","Bebinca","Rumbia","Soulik","Cimaron","Jebi","Durian","Utor","Trami"],
+        ["Kong-rey","Yutu","Toraji","Man-yi","Usagi","Pabuk","Wutip","Sepat","Fitow","Danas","Nari","Wipha","Francisco","Lekima","Krosa","Haiyan","Podul","Lingling","Kajiki","Faxai","Vamei","Tapah","Mitag","Hagibis","Neoguri","Rammasun","Chataan","Halong"],
+        ["Nakri","Fengshen","Kalmaegi","Fung-wong","Kammuri","Phanfone","Vongfong","Rusa","Sinlaku","Hagupit","Jangmi","Mekhala","Higos","Bavi","Maysak","Haishen","Pongsona","Yanyan","Kujira","Chan-hom","Linfa","Nangka","Soudelor","Imbudo","Goni","Morakot","Etau","Vamco"],
+        ["Krovanh","Dujuan","Maemi","Choi-wan","Koppu","Ketsana","Parma","Melor","Nepartak","Lupit","Sudal","Nida","Omais","Conson","Chanthu","Dianmu","Mindulle","Tingting","Kompasu","Namtheun","Malou","Meranti","Rananim","Malakas","Megi","Chaba","Aere","Songda"],
+        ["Sarika","Haima","Meari","Ma-on","Tokage","Nock-ten","Muifa","Merbok","Nanmadol","Talas","Noru","Kulap","Roke","Sonca","Nesat","Haitang","Nalgae","Banyan","Washi","Matsa","Sanvu","Mawar","Guchol","Talim","Nabi","Khanun","Vicente","Saola"]
+    ]
+});
+
 DesignationSystem.periodicTable = new DesignationSystem({
     displayName: 'Periodic Table',
     suffix: DEPRESSION_LETTER,
@@ -792,6 +804,7 @@ DesignationSystem.presetDesignationSystems = [
     DesignationSystem.easternPacific1965,
     DesignationSystem.easternPacific1978,
     DesignationSystem.easternPacific1979,
+    DesignationSystem.westernPacific2000,
     DesignationSystem.periodicTable,
     DesignationSystem.periodicTableAnnual
 ];
