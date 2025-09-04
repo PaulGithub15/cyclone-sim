@@ -1,5 +1,11 @@
 About: A p5.js tropical cyclone simulation game
 
+v0.5.1 (2025-09-04):
+    + Added a lot of name lists
+        > Those being the Davinous, Goikian, Beltonese, & 2000-01 West Pacific lists
+v0.5 (2025-05-31):
+    * Repo forked
+    + Added PAGASA Pre-2001 name list
 v0.4.22 (2024-12-31):
     * Updated name lists for PAGASA, Australian Region, South-West Indian Ocean, South Pacific, and Mediterranean
 v0.4.21 (2024-10-31):
