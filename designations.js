@@ -767,6 +767,40 @@ DesignationSystem.westernPacific2000 = new DesignationSystem({
     ]
 });
 
+DesignationSystem.custom1 = new DesignationSystem({
+    displayName: 'Custom (Goikian)',
+    suffix: 'G',
+    mainLists: [
+        ["Axel","Brynn","Carson","Debbie","Easton","Frances","Garrison","Helena","Iker","Josie","Kenan","Laura","Mason","Naomi","Oscar","Pamela","Rick","Sara","Theo","Vanessa","Wayne","Yaeko","Zephaniah"],
+        ["Anita","Barakiel","Cammie","Daniel","Emilia","Fabian","Gloria","Hector","Isa","Jake","Kaari","Lamech","Maria","Nicodemus","Ollie","Paul","Rajvi","Seth","Tasha","Valentino","Wanda","Yared","Zelda"],
+        ["Alan","Bereka","Cruz","Dani","Enosh","Farah","Gabe","Hanna","Isaac","Jolina","Kevin","Londyn","Mateo","Naamah","Orion","Paislee","Raul","Sela","Tobit","Valerie","Wade","Yusra","Zach"],
+        ["Alyssa","Barrett","Courtney","Dave","Ellie","Falcon","Geneva","Humberto","Ivory","Judas","Katrina","Lawrence","Marygrace","Nestor","Olivia","Preston","Ruby","Silas","Tala","Vladimiro","Waynette","Yates","Zephrine"],
+        ["Abel","Bonnie","Caine","Danielle","Emil","Francesca","Gerald","Herminoe","Ibrahim","Joyce","Karter","Leah","Marco","Nyla","Onyx","Phoebe","Raymond","Salome","Theodore","Veda","Wyeth","Yang","Zane"]
+    ]
+});
+
+DesignationSystem.custom2 = new DesignationSystem({
+    displayName: 'Custom (Davinous, WIP so not use yet plz)',
+    suffix: 'D',
+    annual: true,
+    mainLists: [
+        ["Akoni","Ema","Hone","Iona","Keli","Lala","Moke","Nolo","Olana","Pena","Ulana","Wale"],
+        ["Aka","Ekeka","Hene","Iolana","Keoni","Lino","Mele","Nona","Oliwa","Pama","Upana","Wene"],
+        ["Alika","Ele","Huko","Iopa","Kika","Lana","Maka","Neki","Omeka","Pewa","Unala","Wali"],
+        ["Ana","Ela","Halola","Iune","Kilo","Loke","Malia","Niala","Oho","Pali","Ulika","Walaka"]
+    ]
+});
+
+DesignationSystem.custom3 = new DesignationSystem({
+    displayName: 'Custom (Beltonese)',
+    suffix: 'W',
+    mainLists: [
+        ["Alon","Bidbid","Kwatro","Dagol","Enero","Gulagar","Halayin","Isipin","Luksa","Malakas","Napansin","Oyayi","Pagalin","Ronda","Sakim","Tinda","Upuan","Wika","Yutyutin"],
+        ["Apelyido","Bundok","Kitang-kita","Duyan","Estudyante","Galawin","Huwebes","Ibabaw","Lapad","Maliksi","Nakasampay","Orasan","Paalam","Riles","Saglitin","Talastas","Ugnayin","Walatin","Yuta"],
+        ["Asul","Bago","Kanta","Dalok","Ewan","Gabay","Hutukin","Inyo","Lagpak","Monasteryo","Nobyembre","Orgulyo","Pakete","Ruta","Simsimin","Taguri","Ungkat","Walumpo","Yumi"]
+    ]
+});
+
 DesignationSystem.periodicTable = new DesignationSystem({
     displayName: 'Periodic Table',
     suffix: DEPRESSION_LETTER,
@@ -805,6 +839,9 @@ DesignationSystem.presetDesignationSystems = [
     DesignationSystem.easternPacific1978,
     DesignationSystem.easternPacific1979,
     DesignationSystem.westernPacific2000,
+    DesignationSystem.custom1,
+    DesignationSystem.custom2,
+    DesignationSystem.custom3,
     DesignationSystem.periodicTable,
     DesignationSystem.periodicTableAnnual
 ];
