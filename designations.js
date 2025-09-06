@@ -755,6 +755,17 @@ DesignationSystem.easternPacific1979 = new DesignationSystem({
     ]
 });
 
+DesignationSystem.westernPacific1992 = new DesignationSystem({
+    displayName: 'Western Pacific (1992-99)',
+    suffix: 'W',
+    mainLists: [    // last name list made by JTWC before JMA stepped in
+        ["Ann","Bart","Cam","Dan","Eve","Frankie","Gloria","Herb","Ian","Joy","Kirk","Lisa","Marty","Niki","Orson","Piper","Rick","Sally","Tom","Violet","Willie","Yates","Zane"],
+        ["Abel","Beth","Carlo","Dale","Ernie","Fern","Greg","Hannah","Isa","Jimmy","Kelly","Levi","Marie","Nestor","Opal","Peter","Rosie","Scott","Tina","Victor","Winnie","Yule","Zita"],
+        ["Amber","Bing","Cass","David","Ella","Fritz","Ginger","Hank","Ivan","Joan","Keith","Linda","Mort","Nichole","Otto","Penny","Rex","Stella","Todd","Vicki","Waldo","Yanni","Zeb"],
+        ["Alex","Babs","Chip","Dawn","Elvis","Faith","Gil","Hilda","Iris","Jacob","Kate","Leo","Maggie","Neil","Olga","Paul","Rachel","Sam","Tanya","Virgil","Wendy","York","Zia"]
+    ]
+});
+
 DesignationSystem.westernPacific2000 = new DesignationSystem({
     displayName: 'Western Pacific (2000-01)',
     suffix: 'W',
@@ -838,6 +849,7 @@ DesignationSystem.presetDesignationSystems = [
     DesignationSystem.easternPacific1965,
     DesignationSystem.easternPacific1978,
     DesignationSystem.easternPacific1979,
+    DesignationSystem.westernPacific1992,
     DesignationSystem.westernPacific2000,
     DesignationSystem.custom1,
     DesignationSystem.custom2,
